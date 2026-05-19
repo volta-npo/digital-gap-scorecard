@@ -9,7 +9,7 @@ export const config = {
     "niche": "Nonprofit prioritization of pro bono digital services.",
     "metric": "applications prioritized with consistent evidence",
     "modules": [
-        "Evidence prompts",
+        "Evidence guides",
         "Weighted scoring rubric",
         "Bias check questions",
         "Intake summary export"
@@ -36,66 +36,66 @@ export const config = {
     ],
     "criteria": [
         {
-            "id": "evidence-prompts",
-            "label": "Evidence prompts",
+            "id": "evidence-guides",
+            "label": "Evidence guides",
             "weight": 15,
             "defaultStatus": "not-started",
-            "prompt": "Implement and verify evidence prompts with evidence that a Volta student pod, mentor, and owner can understand."
+            "guidance": "Implement and verify evidence guides with evidence that a Volta student pod, mentor, and owner can understand."
         },
         {
             "id": "weighted-scoring-rubric",
             "label": "Weighted scoring rubric",
             "weight": 15,
             "defaultStatus": "not-started",
-            "prompt": "Implement and verify weighted scoring rubric with evidence that a Volta student pod, mentor, and owner can understand."
+            "guidance": "Implement and verify weighted scoring rubric with evidence that a Volta student pod, mentor, and owner can understand."
         },
         {
             "id": "bias-check-questions",
             "label": "Bias check questions",
             "weight": 15,
             "defaultStatus": "not-started",
-            "prompt": "Implement and verify bias check questions with evidence that a Volta student pod, mentor, and owner can understand."
+            "guidance": "Implement and verify bias check questions with evidence that a Volta student pod, mentor, and owner can understand."
         },
         {
             "id": "intake-summary-export",
             "label": "Intake summary export",
             "weight": 15,
             "defaultStatus": "not-started",
-            "prompt": "Implement and verify intake summary export with evidence that a Volta student pod, mentor, and owner can understand."
+            "guidance": "Implement and verify intake summary export with evidence that a Volta student pod, mentor, and owner can understand."
         },
         {
             "id": "evidence-quality",
             "label": "Evidence quality",
             "weight": 10,
             "defaultStatus": "not-started",
-            "prompt": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
+            "guidance": "Attach proof, source notes, screenshots, owner confirmation, or reviewer rationale."
         },
         {
             "id": "owner-handoff",
             "label": "Owner handoff",
             "weight": 10,
             "defaultStatus": "not-started",
-            "prompt": "Make the output understandable and maintainable by a nontechnical owner."
+            "guidance": "Make the output understandable and maintainable by a nontechnical owner."
         },
         {
             "id": "mission-alignment",
             "label": "Mission alignment",
             "weight": 10,
             "defaultStatus": "not-started",
-            "prompt": "Show how this advances digital equity, student growth, or pro bono delivery."
+            "guidance": "Show how this advances digital equity, student growth, or pro bono delivery."
         },
         {
             "id": "qa-safety",
             "label": "QA and safety",
             "weight": 10,
             "defaultStatus": "not-started",
-            "prompt": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
+            "guidance": "Resolve privacy, accessibility, accuracy, and operational risks before handoff."
         }
     ],
     "templates": {
         "actions": [
             "Run a real Volta scenario for Digital Gap Scorecard and capture baseline evidence.",
-            "Complete the evidence prompts workflow with owner-safe notes.",
+            "Complete the evidence guides workflow with owner-safe notes.",
             "Resolve all blocked rubric items and add evidence for every ready item.",
             "Export the handoff packet and review it with a mentor before client use."
         ]

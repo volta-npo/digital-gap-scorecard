@@ -17,7 +17,7 @@ Applicant scorecards
 ## Domain rows
 
 - Business intake complete
-- Evidence prompts answered
+- Evidence guides answered
 - Need scored
 - Feasibility scored
 - Impact scored

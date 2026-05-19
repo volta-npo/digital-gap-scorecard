@@ -2,7 +2,7 @@
 
 ## 3.0.0
 
-- Promoted Digital Gap Scorecard to v3 production certification.
+- Promoted Digital Gap Scorecard to release certification.
 - Added release gates, integrity hashing, import/export round-trip support, operational docs, and rigorous v3 tests.
 
 ## 1.0.0
