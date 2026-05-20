@@ -117,7 +117,7 @@ export const saas = {
             "stage": "Application intake",
             "moment": "Collect business facts, constraints, and digital gap evidence",
             "success": "Required rubric fields are complete",
-            "automation": "Forms import with missing-evidence prompts"
+            "automation": "Forms import with missing-evidence guidance"
         },
         {
             "stage": "Reviewer calibration",
@@ -190,7 +190,7 @@ export const saas = {
             "cadence": "per cohort"
         },
         {
-            "hypothesis": "Evidence prompts improve shortlist quality",
+            "hypothesis": "Evidence guidance improves shortlist quality",
             "measure": "Evidence completeness",
             "target": "95% complete",
             "cadence": "weekly"

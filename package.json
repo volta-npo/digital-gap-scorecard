@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/10-digital-gap-scorecard.git"
+    "url": "git+https://github.com/volta-npo/digital-gap-scorecard.git"
   },
-  "homepage": "https://volta-npo.github.io/10-digital-gap-scorecard/",
+  "homepage": "https://volta-npo.github.io/digital-gap-scorecard/",
   "bugs": {
-    "url": "https://github.com/volta-npo/10-digital-gap-scorecard/issues"
+    "url": "https://github.com/volta-npo/digital-gap-scorecard/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
