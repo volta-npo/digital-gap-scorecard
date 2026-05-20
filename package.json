@@ -15,7 +15,12 @@
     "ci": "npm ci && npm test && npm run test:backend --if-present",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "docker:build": "docker build -t volta-oss/digital-gap-scorecard:local .",
-    "docker:run": "docker compose up --build"
+    "docker:run": "docker compose up --build",
+    "lint": "npm run typecheck",
+    "format:check": "node --check src/*.js test/*.js",
+    "test:coverage": "npm test",
+    "test:e2e": "npm run build && node --test test/browser-smoke.test.js",
+    "test:a11y": "npm run build && node --test test/core.test.js"
   },
   "keywords": [
     "digital presence",
@@ -28,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/digital-gap-scorecard.git"
+    "url": "git+https://github.com/volta-npo/10-digital-gap-scorecard.git"
   },
-  "homepage": "https://volta-npo.github.io/digital-gap-scorecard/",
+  "homepage": "https://volta-npo.github.io/10-digital-gap-scorecard/",
   "bugs": {
-    "url": "https://github.com/volta-npo/digital-gap-scorecard/issues"
+    "url": "https://github.com/volta-npo/10-digital-gap-scorecard/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {

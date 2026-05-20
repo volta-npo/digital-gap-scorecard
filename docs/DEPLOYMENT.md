@@ -6,7 +6,7 @@ This repository is deployable in three supported modes.
 
 The default public deployment is GitHub Pages. The app is static and uses local browser storage.
 
-- URL: https://volta-npo.github.io/digital-gap-scorecard/
+- URL: https://volta-npo.github.io/10-digital-gap-scorecard/
 - Build command: `npm run build`
 - Output: checked-in static assets at repository root and `src/*.js` compiled from TypeScript
 
@@ -26,6 +26,7 @@ This product is intentionally static-only today. If it later needs server-side w
 ## Production checklist
 
 - Run `make release-check`.
+- Run `npm run lint`, `npm run test:e2e`, and `npm run test:a11y` before a paid pilot.
 - Confirm no client secrets or regulated data are committed.
 - Confirm GitHub Actions CI is green.
 - Confirm GitHub Pages is built.
